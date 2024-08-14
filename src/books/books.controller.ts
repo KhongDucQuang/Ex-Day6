@@ -64,7 +64,7 @@ export class Books {
             }
             return `Khong tim thay cuon sach co ID: ${id}`;
         } catch (err) {
-            console.error('Error updating book:', err);
+            console.error('Loi xay ra khi cap nhat sach', err);
             return 'Da co loi xay ra';
         }
     }
